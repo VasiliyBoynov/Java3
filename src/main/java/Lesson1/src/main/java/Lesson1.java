@@ -1,5 +1,8 @@
+package Lesson1.src.main.java;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
 
 public class Lesson1 {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package Lesson1.src.main.java;
 import java.util.ArrayList;
 
 public class Box<T extends Fruit> {

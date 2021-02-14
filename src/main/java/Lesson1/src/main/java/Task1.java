@@ -1,5 +1,6 @@
-import java.util.ArrayList;
+package Lesson1.src.main.java;
 
+import java.util.ArrayList;
 public class Task1<T> {
     private T[] obj;
 
