@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="%X{ip} %X{user} %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="File" fileName="src/main/java/Lesson6/logs/app.log"  >
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="warn">
+            <AppenderRef ref="Console"/>
+
+        </Root>
+        <Logger name="Lesson6.Lesson6" additivity="false" level="trace">
+            <AppenderRef ref="File"/>
+        </Logger>
+    </Loggers>
+</Configuration>
